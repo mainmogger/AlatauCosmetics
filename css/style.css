@@ -318,6 +318,9 @@ footer {
     color: #7a9b76;
     font-size: 18px;
 }
+.product .price{
+display:block;
+}
 
 @media (max-width: 768px) {
 
@@ -385,9 +388,7 @@ footer {
   .modal-content {
     padding: 20px;
   }
-.product {
-  width: 100%;
-}
+
 .price{
   opacity: 1;
 }
