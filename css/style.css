@@ -358,29 +358,28 @@ footer {
     margin: 40px auto;
   }
 
-.catalog-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .catalog-grid {
+    grid-template-columns: repeat(2, 1fr); 
     gap: 10px;
-    padding: 10px;
   }
 
 
   /* Карточки */
-  .product {
-    padding: 10px;
+    .product {
+    padding: 8px;
+    font-size: 13px;
   }
   
   .product img {
-    width: 100%;
-    height: auto;
+    height: 200px;
   }
 
-
-   .product h2 {
+    .product h2 {
     font-size: 14px;
   }
   .product p {
-    font-size: 12px;
+    font-size: 13px;
+    max-height: none; /* чтобы текст не обрезался */
   }
 
   /* Модалка */
